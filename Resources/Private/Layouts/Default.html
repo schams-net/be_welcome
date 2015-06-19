@@ -1,0 +1,35 @@
+{namespace vh = SchamsNet\BeWelcome\ViewHelpers}
+
+<f:be.container>
+	<vh:AddPublicResources />
+
+	<div class="typo3-fullDoc">
+		<div id="typo3-docheader">
+			<div class="typo3-docheader-functions">
+				<div class="left">
+					&nbsp;
+				</div>
+				<div class="right">
+					&nbsp;
+				</div>
+			</div>
+			<div class="typo3-docheader-buttons">
+				<div class="left">
+					&nbsp;
+				</div>
+				<div class="right">
+					<f:be.buttons.shortcut />
+				</div>
+			</div>
+		</div>
+		<div id="typo3-docbody">
+			<div id="typo3-inner-docbody">
+				<div id="typo3-mod-be-welcome">
+					<f:render section="Header" />
+					<f:render section="Content" />
+					<f:render section="Debug" />
+				</div>
+			</div>
+		</div>
+	</div>
+</f:be.container>

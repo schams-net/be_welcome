@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-06-19T00:00:00Z" product-name="be_welcome">
+		<header/>
+		<body>
+			<trans-unit id="title" xml:space="preserve">
+				<source>Backend Welcome Screen</source>
+			</trans-unit>
+			<trans-unit id="headline.title" xml:space="preserve">
+				<source>Welcome to TYPO3 CMS</source>
+			</trans-unit>
+			<trans-unit id="no_external_website_uri_configured" xml:space="preserve">
+				<source>Please configure an external website URI in the Extension Manager.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

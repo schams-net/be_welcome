@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-06-19T00:00:00Z" product-name="be_welcome">
+		<header/>
+		<body>
+			<trans-unit id="mlang_labels_tablabel" xml:space="preserve">
+				<source>Display arbitrary content from an external website.</source>
+			</trans-unit>
+			<trans-unit id="mlang_labels_tabdescr" xml:space="preserve">
+				<source>Welcome Screen</source>
+			</trans-unit>
+			<trans-unit id="mlang_tabs_tab" xml:space="preserve">
+				<source>Welcome Screen</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

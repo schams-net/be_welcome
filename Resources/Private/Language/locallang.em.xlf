@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-06-19T00:00:00Z" product-name="be_welcome">
+		<header/>
+		<body>
+			<trans-unit id="external_website_uri" xml:space="preserve">
+				<source>URI of external website, e.g. http:typo3.org</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

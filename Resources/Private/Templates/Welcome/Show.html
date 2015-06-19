@@ -1,0 +1,24 @@
+{namespace vh = SchamsNet\BeWelcome\ViewHelpers}
+
+<f:layout name="Default" />
+
+<f:section name="Header">
+	<div class="header">
+		<h1><f:translate key="headline.title">Welcome</f:translate></h1>
+	</div>
+</f:section>
+
+<f:section name="Content">
+
+	<f:if condition="{external_website_uri}">
+		<f:then>
+			<iframe id="BeWelcome" src="{external_website_uri}" width="100%" scrolling="no"></iframe>
+		</f:then>
+		<f:else>
+			<div class="">
+				<p><f:translate key="no_external_website_uri_configured">Please configure an external website URI in the Extension Manager.</f:translate></p>
+			</div>
+		</f:else>
+	</f:if>
+
+</f:section>

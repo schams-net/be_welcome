@@ -1,0 +1,16 @@
+/**
+ * This file is part of the TYPO3 CMS Extension "Backend Welcome"
+ * Extension author: Michael Schams - http://schams.net
+ *
+ * For copyright and license information, please read the LICENSE.txt
+ * file distributed with this source code.
+ *
+ * @package		TYPO3
+ * @subpackage	be_welcome
+ * @author		Michael Schams <schams.net>
+ * @link		http://schams.net
+ */
+
+iframe#BeWelcome {
+	border: none;
+}
