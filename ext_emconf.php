@@ -27,7 +27,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'_md5_values_when_last_written' => '',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '6.2.0-6.2.999',
+			'typo3' => '6.2.0-7.99.99',
 		),
 		'conflicts' => array(),
 		'suggests' => array()

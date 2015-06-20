@@ -1,2 +1,2 @@
   # cat=basic; type=string; label=LLL:EXT:be_welcome/Resources/Private/Language/locallang.em.xlf:external_website_uri
-externalWebsiteUri = http://typo3.org
+externalWebsiteUri = http://davidjbradshaw.com/iframe-resizer/example/frame.content.html

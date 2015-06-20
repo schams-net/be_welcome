@@ -76,8 +76,5 @@ class WelcomeController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
 		if(isset($this->externalWebsiteUri)) {
 			$this->view->assign('external_website_uri', $this->externalWebsiteUri);
 		}
-
-		// ...
-		$this->view->assign('debug', $debug);
 	}
 }
